@@ -1,4 +1,4 @@
-import { films } from 'https://github.com/Stormy23975/posters/blob/main/data/films.js'
+import { films } from 'posters/data/films.js'
 
 const pageBody = document.querySelector('body')
 const cardContainer = document.querySelector('#cards')
