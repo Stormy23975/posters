@@ -1,4 +1,4 @@
-import { films } from '/posters/data/films.js'
+import { films } from '../data/films.js'
 
 const pageBody = document.querySelector('body')
 const cardContainer = document.querySelector('#cards')
