@@ -1,0 +1,38 @@
+@media only screen and (min-width: 60rem) {
+
+    body {
+        padding: 2rem 4rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    #cards.grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    #cards.list .card {
+        grid-template-columns: 160px 1fr;
+    }
+
+    #cards.list .card img {
+        width: 160px;
+    }
+
+    .card {
+        padding: 1.25rem;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+    }
+
+} /* end media query*/
